@@ -3,7 +3,7 @@ import cv2
 import time
 import uuid
 IMAGE_PATH="CollectedImages"
-labels=['Hello','Yes','No','Thanks','IloveYou','Please']
+labels=['Hello', 'Iloveu', 'No', 'Please', 'Thanks', 'Yes']
 number_of_images=5
 for label in labels:
     img_path=os.path.join(IMAGE_PATH,label)
